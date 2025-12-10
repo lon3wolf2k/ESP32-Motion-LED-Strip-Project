@@ -1,0 +1,7 @@
+ESP32 + PIR + WS2812B Wiring Diagram
+-------------------------------------
+5V USB Adapter -> Strip +5V
+GND -> Strip GND -> ESP32 GND -> PIR GND
+Strip DIN -> (330Ω) -> ESP32 GPIO5
+PIR VCC -> ESP32 5V
+PIR OUT -> ESP32 GPIO14
