@@ -1,1 +1,0 @@
-void setup(){Serial.begin(115200);pinMode(14,INPUT);} void loop(){Serial.println(digitalRead(14));delay(200);} 
